@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+/* - White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
+:root {
+    --white: hsl(0, 0%, 100%);
+    
+    --main-color: hsl(228, 45%, 44%);
+}
